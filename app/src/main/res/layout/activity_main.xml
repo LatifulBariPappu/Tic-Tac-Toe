@@ -10,14 +10,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
+        android:layout_marginTop="70dp"
         android:id="@+id/header_text"
-        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="25sp"
         android:textStyle="bold"
+        android:background="#C43DBAAC"
         android:text="Tic Tac Toe"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_below="@id/header_text"
         android:orientation="vertical">
         <LinearLayout
@@ -32,7 +35,7 @@
                 android:id="@+id/btn0"
                 android:tag="0"
                 android:textSize="60sp"
-                android:background="@android:color/darker_gray"
+                android:background="@drawable/button_bac"
                 tools:text="0" />
             <Button
                 android:layout_width="wrap_content"
@@ -41,7 +44,7 @@
                 android:id="@+id/btn1"
                 android:tag="1"
                 android:textSize="60sp"
-                android:background="@android:color/darker_gray"
+                android:background="@drawable/button_bac"
                 tools:text="1"
                 />
             <Button
@@ -49,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:id="@+id/btn2"
-                android:background="@android:color/darker_gray"
+                android:background="@drawable/button_bac"
                 android:tag="2"
                 android:textSize="60sp"
                 tools:text="2"
@@ -65,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:id="@+id/btn3"
-                android:background="@android:color/darker_gray"
+                android:background="@drawable/button_bac"
                 android:tag="3"
                 android:textSize="60sp"
                 tools:text="3"
@@ -75,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:id="@+id/btn4"
-                android:background="@android:color/darker_gray"
+                android:background="@drawable/button_bac"
                 android:tag="4"
                 android:textSize="60sp"
                 tools:text="4"
@@ -86,7 +89,7 @@
                 android:layout_margin="8dp"
                 android:id="@+id/btn5"
                 android:tag="5"
-                android:background="@android:color/darker_gray"
+                android:background="@drawable/button_bac"
                 android:textSize="60sp"
                 tools:text="5"
                 />
@@ -101,7 +104,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:id="@+id/btn6"
-                android:background="@android:color/darker_gray"
+                android:background="@drawable/button_bac"
                 android:tag="6"
                 tools:text="6"
                 android:textSize="60sp"
@@ -111,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:id="@+id/btn7"
-                android:background="@android:color/darker_gray"
+                android:background="@drawable/button_bac"
                 android:tag="7"
                 tools:text="7"
                 android:textSize="60sp"
@@ -121,14 +124,27 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:id="@+id/btn8"
-                android:background="@android:color/darker_gray"
+                android:background="@drawable/button_bac"
                 android:tag="8"
                 tools:text="8"
                 android:textSize="60sp"
                 />
         </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resetButton"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:textSize="25sp"
+            android:text="Reset"
+            android:padding="3dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:background="#C43DBAAC"/>
 
     </LinearLayout>
+
 
 
 

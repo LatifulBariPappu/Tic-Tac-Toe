@@ -1,12 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.TicTacToe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.TicTacToe" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#AAAAAA</item>
         <item name="colorPrimaryVariant">@color/holo_orange_light</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/holo_red_dark</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
